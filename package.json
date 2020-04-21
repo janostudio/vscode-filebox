@@ -1,5 +1,6 @@
 {
 	"name": "filebox",
+	"publisher": "qinghuangniao",
 	"displayName": "filebox",
 	"description": "save file with password.",
 	"version": "0.0.1",
@@ -7,6 +8,7 @@
 		"vscode": "^1.44.0"
 	},
 	"categories": [
+		"Extension Packs",
 		"Other"
 	],
 	"activationEvents": [
@@ -21,6 +23,15 @@
 			}
 		]
 	},
+	"homepage": "https://github.com/janostudio/vscode-filebox/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/janostudio/vscode-filebox/issues",
+    "email": "qinghuangniao@gmail.com"
+  },
+	"repository": {
+		"type": "git",
+    "url": "git+https://github.com/janostudio/vscode-filebox.git"
+  },
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
