@@ -3,12 +3,12 @@
 	"publisher": "qinghuangniao",
 	"displayName": "filebox",
 	"description": "save file with password.",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
 	"categories": [
-		"Extension Packs",
+		"Snippets",
 		"Other"
 	],
 	"activationEvents": [
@@ -19,19 +19,25 @@
 		"commands": [
 			{
 				"command": "filebox.helloWorld",
-				"title": "Hello World"
+				"title": "Filebox World"
+			}
+		],
+		"snippets": [
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.json"
 			}
 		]
 	},
 	"homepage": "https://github.com/janostudio/vscode-filebox/blob/master/README.md",
-  "bugs": {
-    "url": "https://github.com/janostudio/vscode-filebox/issues",
-    "email": "qinghuangniao@gmail.com"
-  },
+	"bugs": {
+		"url": "https://github.com/janostudio/vscode-filebox/issues",
+		"email": "qinghuangniao@gmail.com"
+	},
 	"repository": {
 		"type": "git",
-    "url": "git+https://github.com/janostudio/vscode-filebox.git"
-  },
+		"url": "git+https://github.com/janostudio/vscode-filebox.git"
+	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",

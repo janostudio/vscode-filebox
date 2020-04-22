@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const vscode = require("vscode");
 function activate(context) {
-    console.log('Congratulations, your extension "filebox" is now active!');
-    let disposable = vscode.commands.registerCommand('filebox.helloWorld', () => {
-        vscode.window.showInformationMessage('Hello World from filebox1!');
+    // 注册一个默认的命令
+    const disposable = vscode.commands.registerCommand('filebox.helloWorld', () => {
+        vscode.window.showInformationMessage('Hello qinghuangniao!');
     });
     context.subscriptions.push(disposable);
 }
