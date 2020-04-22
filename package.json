@@ -8,7 +8,7 @@
 		"vscode": "^1.44.0"
 	},
 	"categories": [
-		"Extension Packs",
+		"Snippets",
 		"Other"
 	],
 	"activationEvents": [
@@ -19,7 +19,13 @@
 		"commands": [
 			{
 				"command": "filebox.helloWorld",
-				"title": "Hello World"
+				"title": "Filebox World"
+			}
+		],
+		"snippets": [
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.json"
 			}
 		]
 	},
