@@ -13,4 +13,3 @@ suite('Extension Test Suite', () => {
         assert.equal(-1, [1, 2, 3].indexOf(0));
     });
 });
-//# sourceMappingURL=extension.test.js.map

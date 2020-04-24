@@ -26,4 +26,3 @@ function main() {
     });
 }
 main();
-//# sourceMappingURL=runTest.js.map

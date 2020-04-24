@@ -12,16 +12,45 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:filebox.helloWorld"
+		"*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "filebox.helloWorld",
-				"title": "Filebox World"
+				"command": "filebox.startTimer",
+				"title": "Start Timer"
+			},
+			{
+				"command": "filebox.pauseTimer",
+				"title": "Pause Timer"
+			},
+			{
+				"command": "filebox.resetTimer",
+				"title": "Reset Timer"
 			}
 		],
+		"configuration": {
+			"type": "object",
+			"title": "filebox Configuration",
+			"properties": {
+				"filebox.workTime": {
+					"type": "number",
+					"default": 25,
+					"description": "Time of work, in minutes."
+				},
+				"filebox.pauseTime": {
+					"type": "number",
+					"default": 5,
+					"description": "Time of pause, in minutes"
+				},
+				"filebox.repeat": {
+					"type": "number",
+					"default": 4,
+					"description": "Number of repeat before long break"
+				}
+			}
+		},
 		"snippets": [
 			{
 				"language": "markdown",
