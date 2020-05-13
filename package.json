@@ -55,6 +55,10 @@
 			{
 				"language": "markdown",
 				"path": "./snippets/markdown.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/jsx.json"
 			}
 		]
 	},
