@@ -17,15 +17,13 @@
     "body": [
       "## $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
       "",
-      "#### S",
+      "#### Work",
       "1. ",
-      "#### A",
+      "#### Read",
       "1. ",
-      "#### B",
+      "#### Impact",
       "1. ",
-      "#### C",
-      "1. ",
-      "#### W",
+      "#### Chores",
       "",
       "1. "
     ],
@@ -36,11 +34,11 @@
     "body": [
       "## $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_DAY_NAME_SHORT",
       "",
-      "#### G",
+      "#### Good",
       "1. ",
-      "#### B",
+      "#### Bad",
       "1. ",
-      "#### W",
+      "#### Watch",
       "1. "
     ],
     "description": "自动填充每周总结的基本结构。"
